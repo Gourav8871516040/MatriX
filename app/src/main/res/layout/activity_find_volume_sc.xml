@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindVolumeSc">
+
+
+    <ScrollView
+        android:layout_width="315dp"
+        android:layout_height="540dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/vsphere"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/sphere"
+                android:drawableRight="@drawable/sphere"
+                android:text="Sphere"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <Button
+                android:id="@+id/vcone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/cone"
+                android:drawableRight="@drawable/cone"
+                android:text="Cone"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/vcube"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/cube"
+                android:drawableRight="@drawable/cube"
+                android:text="Cube"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/vcylinder"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/cylinder"
+                android:drawableRight="@drawable/cylinder"
+                android:text="Cylinder"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/vcuboid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/cuboid"
+                android:drawableRight="@drawable/cuboid"
+                android:text="Cuboid"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

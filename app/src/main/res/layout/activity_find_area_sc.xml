@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindAreaSc">
+
+
+    <ScrollView
+        android:layout_width="315dp"
+        android:layout_height="540dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/asquare"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/square"
+                android:drawableRight="@drawable/square"
+                android:text="Square"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <Button
+                android:id="@+id/atriangle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/triangle"
+                android:drawableRight="@drawable/triangle"
+                android:text="Triangle"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/arectangle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/rectangle"
+                android:drawableRight="@drawable/rectangle"
+                android:text="Rectangle"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/acircle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/circle"
+                android:drawableRight="@drawable/circle"
+                android:text="Circle"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/aparallelogram"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/parallelogram"
+                android:drawableRight="@drawable/parallelogram"
+                android:text="Parallelogram"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/apentagon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/pentagon"
+                android:drawableRight="@drawable/pentagon"
+                android:text="Pentagon"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/aequitri"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/triangle"
+                android:drawableRight="@drawable/triangle"
+                android:text="Equilateral Traingle"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/arightangtri"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/rightangletri"
+                android:drawableRight="@drawable/rightangletri"
+                android:text="Right angle Triangle"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/atrapezium"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/trapezium"
+                android:drawableRight="@drawable/trapezium"
+                android:text="Trapezium"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/arhombus"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/rhombus"
+                android:drawableRight="@drawable/rhombus"
+                android:text="Rhombus"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/aellipse"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple"
+                android:drawableLeft="@drawable/ellipse"
+                android:drawableRight="@drawable/ellipse"
+                android:text="Ellipse"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.278" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

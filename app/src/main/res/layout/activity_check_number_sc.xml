@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckNumberSc">
+
+    <Button
+        android:id="@+id/harshadbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Harshad"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <Button
+        android:id="@+id/finonaccibt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Fibonacci"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/pallindrombt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Pallindrom"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <Button
+        android:id="@+id/twistedprimebt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Twisted Prime"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/armstrongbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Armstrong"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <Button
+        android:id="@+id/defficientbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Deficient"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <Button
+        android:id="@+id/primebt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Prime"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <Button
+        android:id="@+id/disariumbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Disarium"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <Button
+        android:id="@+id/happybt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Happy"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/perfectbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Perfect"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <Button
+        android:id="@+id/abundantbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Abundant"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <Button
+        android:id="@+id/evenoddbt"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Even/Odd"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="Number :"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="number"
+        android:maxLength="9"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="225dp"
+        android:layout_height="30dp"
+        android:hint=" Result"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

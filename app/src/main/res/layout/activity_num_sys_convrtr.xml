@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".NumSysConvrtr">
+
+    <Button
+        android:id="@+id/conbt2"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:background="@drawable/ripple"
+
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#000000"
+
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <Button
+        android:id="@+id/conbt1"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:background="@drawable/ripple"
+
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#000000"
+
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <Button
+        android:id="@+id/conbt3"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:background="@drawable/ripple"
+
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#000000"
+
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <EditText
+        android:id="@+id/conrestxt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Converted Number"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
+
+    <TextView
+        android:id="@+id/conres"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+
+        android:text=" Result :-"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+
+        android:text=" Convert to :"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <EditText
+        android:id="@+id/conqtext"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Number"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <TextView
+        android:id="@+id/conqhead"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+
+        android:text=" Convert :-"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <TextView
+        android:id="@+id/conhead"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/textvboredr"
+        android:gravity="center"
+        android:text=" Conversion "
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+</androidx.constraintlayout.widget.ConstraintLayout>

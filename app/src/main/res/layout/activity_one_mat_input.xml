@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".OneMatInput">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Order of Matrix :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text=" x"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <EditText
+        android:id="@+id/row2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint=" Row"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/col2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint=" Col."
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/matres"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:background="@drawable/textvboredr"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Result"
+        android:inputType="textMultiLine"
+        android:keepScreenOn="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/redbdr"
+        android:text=" Enter your Matrix  row wise and in the Manner of (x-y-z).  For Example: 1-2-3-4-5-6-7....n"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <EditText
+        android:id="@+id/mattxt"
+        android:layout_width="370dp"
+        android:layout_height="38dp"
+        android:background="@android:color/white"
+        android:digits="1,2,3,4,5,6,7,8,9,0,-"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Your Matrix"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+    <TextView
+        android:id="@+id/mat"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text=" Matrix :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <Button
+        android:id="@+id/matreset2"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/tmatok2"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ripple"
+        android:text="Result"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+</androidx.constraintlayout.widget.ConstraintLayout>

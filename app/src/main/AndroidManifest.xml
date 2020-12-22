@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matrix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutSc"></activity>
+        <activity android:name=".FeedbackSc" />
+        <activity android:name=".WelomeSc" />
+        <activity android:name=".GetName" />
+        <activity android:name=".FourInputSc" />
+        <activity android:name=".TwoMatInput" />
+        <activity android:name=".OneMatInput" />
+        <activity android:name=".NumSysConvrtr" />
+        <activity android:name=".ThreeInputSc" />
+        <activity android:name=".TwoInputSc" />
+        <activity android:name=".OneInputSc" />
+        <activity android:name=".CalculatorSc" />
+        <activity android:name=".NumSysSc" />
+        <activity android:name=".APseriesSc" />
+        <activity
+            android:name=".NumTableSc"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateUnchanged|adjustPan" />
+        <activity android:name=".MatrixOprtnSc" />
+        <activity
+            android:name=".CheckNumberSc"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateUnchanged|adjustPan" />
+        <activity android:name=".FindVolumeSc" />
+        <activity android:name=".FindPerimterSc" />
+        <activity android:name=".SurfaceAreaSc" />
+        <activity android:name=".FindAreaSc" />
+        <activity android:name=".MenuSc" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

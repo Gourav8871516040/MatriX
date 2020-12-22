@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".FourInputSc">
+
+
+    <EditText
+        android:id="@+id/fourtf1"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/threet"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text=" Base a :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <Button
+        android:id="@+id/fourans"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ripple"
+
+        android:text="Answer"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <ImageView
+        android:id="@+id/threeimg"
+        android:layout_width="255dp"
+        android:layout_height="196dp"
+        android:src="@drawable/atrapezium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/threehead"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text=" Perimeter of Trapezium"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/fourres"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:hint=" Result"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <EditText
+        android:id="@+id/fourtf4"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <TextView
+        android:id="@+id/threet3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text=" Side d :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <EditText
+        android:id="@+id/fourtf2"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <TextView
+        android:id="@+id/threet1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text=" Base b :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <EditText
+        android:id="@+id/fourtf3"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/threet2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text=" Side c :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text=" Result :"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeimg"
+        app:layout_constraintVertical_bias="0.721" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
